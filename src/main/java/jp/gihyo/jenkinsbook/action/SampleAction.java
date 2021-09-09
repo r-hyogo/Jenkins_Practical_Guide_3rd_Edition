@@ -66,7 +66,7 @@ public class SampleAction {
         SampleDTO dto = new SampleDTO(firstName, lastName);
 
         // Select the greeting message according to the time
-        Calender calendar = Calendar.getInstance();
+        Calendar calendar = Calendar.getInstance();
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
         if (hour < 12)
         {
